@@ -15,7 +15,7 @@ function App() {
         fetchData();
     },[])
     const ClearData =()=>{
-      setUser();
+      setUser([]);
     }
     const RemoveElem=(id)=>{
       const newUser = user.filter((curElem)=>{
