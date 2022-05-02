@@ -1,0 +1,37 @@
+.munna{
+    width: 100px;
+    height: 100px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    margin: 20px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+    line-height: 110px;
+    
+
+}
+.wt{
+    text-align: left;
+
+}
+.nn{
+    text-align: center;
+}
+.ot{
+    text-align: left;
+
+}
+.container{
+    width: 600px;
+} 
+.ms{
+    
+
+    line-height: 110px;    
+
+}
+.mk{
+    text-align: center;
+}
+.ram{
+    text-align: center;  
+}
