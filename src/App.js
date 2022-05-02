@@ -14,12 +14,16 @@ function App() {
     useEffect(()=>{
         fetchData();
     },[])
+    const ClearData =()=>{
+      setUser([]);
+    }
 
     return (
          <>
            <div className='container my-5'>
               <div className='row'>
                 <div className='col-4'>
+                <button className='btn btn-success' onClick={ ClearData}>  ClearData</button>
                 {
                  user.map((value,id) => {
                   return (
@@ -28,6 +32,7 @@ function App() {
                     <div className="card-body">
                       <h5 className="card-title">{value.title}</h5>
                       <p className="card-text">{value.body}</p>
+
       
                     </div>
                   </div>
@@ -41,7 +46,7 @@ function App() {
               </div>
 
            </div>
-
+           
          </>
     )
 }
